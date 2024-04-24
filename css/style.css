@@ -5,6 +5,34 @@ font-family: 'barlow';
 src: url(https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&display=swap);
 }
 
+header {
+    height: 7vh;
+    background-color: #ffd1ba;
+}
+
+ nav {
+    display: flex;
+ }
+
+ h2 {
+    font-size: 2rem;
+}
+
+ ul { 
+    display: flex;
+    flex: 2;
+    list-style-type: none;
+    position: relative;
+    left: 55vw;
+
+ }
+
+
+.text2 {
+    font-size: 1.4rem;
+}
+
+
 body {
     background-color: #F5F5F5;
     color: #333333;
