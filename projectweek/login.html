@@ -1,26 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Login</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h2>Login</h2>
-    <form action="login.php" method="post">
-        <div>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-        </div>
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-        </div>
-        <div>
-            <button type="submit">Login</button>
-        </div>
-    </form>
-    <p>Don't have an account? <a href="register.html">Register</a></p>
+
+<header>
+    <nav>
+        <img src="" alt="logo ElderE - link">
+        <h2 id="text1">ElderE - link</h2>
+        <ul>
+            <li class="text2">instellingen</li>
+            <li class="text2">uitloggen</li>
+        </ul>
+        <img src="" alt="account beheren knop">
+    </nav>
+</header>
+
+<div class="logCon">
+    <article class="logArt">
+        <h1><strong>Inloggen</strong></h1>
+        <form action="login.php" method="post">
+            <div>
+                <label for="username">Gebruikersnaam:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="password">Wachtwoord:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <button type="submit" class="logBut">Log in</button>
+            </div>
+        </form>
+        <p>Heb je nog geen account? <a href="register.html">Registreer</a></p>
+    </article>
+</div>
+
 </body>
 </html>
