@@ -1,0 +1,48 @@
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 0 auto; /* Hiermee wordt het blokje gecentreerd in de content-div */
+}
+
+form input, form textarea {
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+ 
+  .input-gegevens{
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+ 
+  .gegevens {
+    display: flex;
+    margin-top: 65px;
+  }
+ 
+  .contact-button{
+    top: 25px;
+    background: #8c7edc;
+    color: white;
+    font-size: 16px;
+    padding: 12px 50px;
+    margin: 20px 0;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+ 
+  .contact-button:hover{
+    transform: translateY(-5px);
+  }
